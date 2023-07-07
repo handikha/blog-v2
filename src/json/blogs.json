@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "writer": "John Doe",
+    "title": "Introduction to JavaScript",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-06-27T10:00:00Z",
+    "updatedAt": "2023-06-27T14:30:00Z",
+    "category": "JavaScript",
+    "postImage": "https://source.unsplash.com/featured/?javascript",
+    "status": 1
+  },
+  {
+    "id": 2,
+    "writer": "Jane Smith",
+    "title": "Python Basics for Beginners",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-06-28T09:15:00Z",
+    "updatedAt": "2023-06-28T12:45:00Z",
+    "category": "Python",
+    "postImage": "https://source.unsplash.com/featured/?python",
+    "status": 1
+  },
+  {
+    "id": 3,
+    "writer": "Mark Johnson",
+    "title": "CSS Styling Techniques",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-06-29T11:20:00Z",
+    "updatedAt": "2023-06-29T15:10:00Z",
+    "category": "CSS",
+    "postImage": "https://source.unsplash.com/featured/?css",
+    "status": 1
+  },
+  {
+    "id": 4,
+    "writer": "Sarah Thompson",
+    "title": "Getting Started with React",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-06-30T08:45:00Z",
+    "updatedAt": "2023-06-30T13:20:00Z",
+    "category": "React",
+    "postImage": "https://source.unsplash.com/featured/?react",
+    "status": 1
+  },
+  {
+    "id": 5,
+    "writer": "Michael Wilson",
+    "title": "Database Management with SQL",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-07-01T10:30:00Z",
+    "updatedAt": "2023-07-01T14:00:00Z",
+    "category": "SQL",
+    "postImage": "https://source.unsplash.com/featured/?sql",
+    "status": 1
+  },
+  {
+    "id": 6,
+    "writer": "Emily Davis",
+    "title": "HTML Fundamentals for Web Development",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-07-02T09:10:00Z",
+    "updatedAt": "2023-07-02T12:40:00Z",
+    "category": "HTML",
+    "postImage": "https://source.unsplash.com/featured/?html",
+    "status": 1
+  },
+  {
+    "id": 7,
+    "writer": "David Wilson",
+    "title": "Java Programming Best Practices",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-07-03T11:40:00Z",
+    "updatedAt": "2023-07-03T15:20:00Z",
+    "category": "Java",
+    "postImage": "https://source.unsplash.com/featured/?java",
+    "status": 1
+  },
+  {
+    "id": 8,
+    "writer": "Olivia Taylor",
+    "title": "Responsive Web Design Techniques",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-07-04T08:20:00Z",
+    "updatedAt": "2023-07-04T12:10:00Z",
+    "category": "Web Design",
+    "postImage": "https://source.unsplash.com/featured/?webdesign",
+    "status": 1
+  },
+  {
+    "id": 9,
+    "writer": "Daniel Anderson",
+    "title": "PHP Development Tips and Tricks",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdAt": "2023-07-05T10:50:00Z",
+    "updatedAt": "2023-07-05T14:30:00Z",
+    "category": "PHP",
+    "postImage": "https://source.unsplash.com/featured/?php",
+    "status": 1
+  }
+]
