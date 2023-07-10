@@ -5,49 +5,61 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply bg-slate-100 font-nunito text-gray duration-300 dark:bg-slate-900 dark:text-light;
-  }
+    body {
+        @apply bg-slate-100 font-nunito text-gray duration-300 dark:bg-slate-900 dark:text-light;
+    }
 
-  h3 {
-    @apply text-2xl font-bold text-title dark:text-title-dark;
-  }
+    h3 {
+        @apply text-2xl font-bold text-title dark:text-title-dark;
+    }
 
-  h3.title {
-    @apply text-lg font-bold text-title hover:text-cyan-600 dark:text-title-dark dark:hover:text-primary md:text-xl;
-  }
+    h3.title {
+        @apply text-lg font-bold text-title dark:text-title-dark  md:text-2xl;
+    }
 
-  .container {
-    @apply px-4;
-  }
+    h3.card-title {
+        @apply text-lg font-bold text-title hover:text-cyan-600 dark:text-title-dark dark:hover:text-primary md:text-xl;
+    }
 
-  ::-webkit-scrollbar {
-    @apply w-2;
-  }
+    p.content {
+        @apply dark:text-light-gray md:text-lg;
+    }
 
-  ::-webkit-scrollbar-track {
-    @apply bg-transparent;
-  }
+    .container {
+        @apply px-4;
+    }
 
-  ::-webkit-scrollbar-thumb {
-    @apply rounded-full bg-gray;
-  }
+    ::-webkit-scrollbar {
+        @apply w-2;
+    }
 
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-gray;
-  }
+    ::-webkit-scrollbar-track {
+        @apply bg-transparent;
+    }
 
-  .categories-container::-webkit-scrollbar-track {
-    @apply bg-light;
-  }
+    ::-webkit-scrollbar-thumb {
+        @apply rounded-full bg-gray;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-gray;
+    }
+
+    .categories-container::-webkit-scrollbar-track {
+        @apply bg-light;
+    }
 }
 
 @layer components {
-  @import url("./components/Navbar/index.css");
+    @import url("./components/Navbar/index.css");
 
-  .card-container {
-    margin-top: calc(100vw - 57%);
-  }
+    .card-container {
+        margin-top: calc(100vw - 57%);
+    }
+
+    .icon-wrapper {
+        @apply cursor-pointer rounded-full bg-slate-200 p-2 duration-300 hover:scale-110 hover:bg-slate-100 hover:shadow-md dark:bg-slate-700 dark:hover:bg-dark-gray;
+    }
 }
 
 @layer utilities {

@@ -7,27 +7,15 @@
 }
 
 .nav-menu-wrapper {
-  @apply flex items-center gap-4 font-semibold;
+  @apply flex items-center gap-8 font-semibold;
 }
 
-/*.nav-menu {
-  @apply absolute top-0 flex h-screen w-3/4 flex-col items-start gap-2 bg-slate-100 px-8 py-4 font-semibold duration-300 dark:bg-slate-800 md:static md:flex md:h-fit md:w-fit md:translate-x-0 md:flex-row md:items-center md:gap-8 md:bg-transparent md:p-0 dark:md:bg-transparent;
-}*/
-
 .nav-menu {
-  @apply absolute top-0 grid h-screen w-3/4 auto-rows-max grid-cols-1 items-start bg-slate-100 px-8 py-4 font-semibold duration-300 dark:bg-slate-800 md:static md:h-fit md:w-fit  md:translate-x-0 md:grid-cols-4 md:items-center md:bg-transparent md:p-0 dark:md:bg-transparent;
+  @apply absolute top-0 flex h-screen w-3/4 flex-col items-start gap-2 bg-slate-100 px-8 py-4 font-semibold duration-300 dark:bg-slate-800 md:static md:flex md:h-fit md:w-fit md:translate-x-0 md:flex-row md:items-center md:gap-8 md:bg-transparent md:p-0 dark:md:bg-transparent;
 }
 
 .nav-menu-item {
-  @apply w-full py-2 duration-200 active:pl-2 dark:text-light md:w-fit md:active:p-0;
-}
-
-.profile-img-wrapper {
-  @apply relative;
-}
-
-.profile-img-wrapper::after {
-  @apply absolute bottom-0 h-[1px] w-full bg-slate-300 content-[""] dark:bg-slate-700 md:hidden;
+  @apply w-full py-2 duration-200 active:pl-2 dark:text-light md:w-fit md:active:px-0;
 }
 
 .sidebar-button {
@@ -39,5 +27,5 @@
 }
 
 .theme-button {
-  @apply mr-4 cursor-pointer text-2xl text-yellow-500 duration-300 hover:rotate-45;
+  @apply cursor-pointer text-2xl text-yellow-500 duration-300 hover:rotate-45;
 }
