@@ -4,15 +4,15 @@ import HomePage from "./pages/Home";
 import Article from "./pages/Article";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/article/:id" element={<Article />} />
-      </Routes>
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/article/:id" element={<Article />} />
+            </Routes>
+        </>
+    );
 }
 
 export default App;
