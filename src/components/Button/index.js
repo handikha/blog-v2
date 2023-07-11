@@ -6,12 +6,12 @@ export default function Button(props) {
   const className = [props.className];
   props.isPrimary &&
     className.push(
-      "bg-primary hover:bg-cyan-600 text-white duration-300 px-8 py-2 rounded-full"
+      "bg-primary hover:bg-cyan-600 text-white duration-300 px-8 py-2 rounded-lg"
     );
 
   props.isSecondary &&
     className.push(
-      "bg-light-gray hover:bg-gray text-white duration-300 px-8 py-2 rounded-full"
+      "bg-light-gray hover:bg-gray text-white duration-300 px-8 py-2 rounded-lg"
     );
 
   props.isBLock && className.push("block");

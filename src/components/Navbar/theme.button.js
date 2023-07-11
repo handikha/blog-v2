@@ -41,12 +41,12 @@ export default function ThemeButton() {
   }, [element.classList]);
 
   return theme === "light" ? (
-    <span className={`theme-button`} onClick={() => toggleDarkMode("dark")}>
+    <div className={`theme-button`} onClick={() => toggleDarkMode("dark")}>
       <HiSun />
-    </span>
+    </div>
   ) : (
-    <span className={`theme-button`} onClick={() => toggleDarkMode("light")}>
+    <div className={`theme-button`} onClick={() => toggleDarkMode("light")}>
       <HiMoon />
-    </span>
+    </div>
   );
 }

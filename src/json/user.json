@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "uuid": "89asg-as7a-sad8we-sd12ab",
+  "username": "handikhajul",
+  "email": "handikha@gmail.com",
+  "phone": "081234567890",
+  "Profile": {
+    "fullName": "Handikha Jul",
+    "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis rem exercitationem laborum unde repellat.",
+    "profileImg": "https://source.unsplash.com/400x400?cat"
+  }
+}

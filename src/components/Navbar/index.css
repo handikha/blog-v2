@@ -29,3 +29,7 @@
 .theme-button {
   @apply cursor-pointer text-2xl text-yellow-500 duration-300 hover:rotate-45;
 }
+
+.profile-menu {
+  @apply absolute right-[50%] top-[110%] w-60 rounded-lg bg-slate-100 p-4 shadow-lg transition-colors duration-300 dark:bg-slate-800;
+}
