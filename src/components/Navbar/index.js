@@ -14,14 +14,14 @@ export default function Navbar({user}) {
   const [isNavActive, setIsNavActive] = useState(false);
 
   // MODAL HANDLER
-  const [showModal, setShowModal] = useState({ show: false, type: "" });
-  const handleShowModal = (type) => {
-    setShowModal({ show: true, type });
+  const [showModal, setShowModal] = useState({ show: false, context: "" });
+  const handleShowModal = (context) => {
+    setShowModal({ show: true, context });
 
     document.body.style.overflow = "hidden";
   };
   const handleCloseModal = () => {
-    setShowModal({ show: false, type: "" });
+    setShowModal({ show: false, context: "" });
 
     document.body.style.overflow = "auto";
   };
@@ -66,7 +66,7 @@ export default function Navbar({user}) {
       <Modal
         showModal={showModal.show}
         closeModal={handleCloseModal}
-        title={showModal.type === "login" ? "Login" : "Register"}
+        title={showModal.context === "login" ? "Login" : "Register"}
       ></Modal>
     </>
   );

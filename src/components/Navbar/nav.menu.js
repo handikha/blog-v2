@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 import Button from "../Button";
 import { HiMenu, HiOutlineChevronRight, HiX } from "react-icons/hi";
 
-import { HiOutlineArrowRightOnRectangle, HiOutlineHome } from "react-icons/hi2";
+import {
+  HiOutlineArrowRightOnRectangle,
+  HiOutlineCog6Tooth,
+  HiOutlineHome,
+  HiOutlineUser,
+} from "react-icons/hi2";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function NavMenu({
@@ -15,7 +20,6 @@ export default function NavMenu({
   user,
 }) {
   // SCROLL AND RESIZE HANDLER
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset;
@@ -214,6 +218,31 @@ export default function NavMenu({
                       <span>{user.username}</span>
                       <HiOutlineChevronRight className="ml-auto text-xl" />
                     </Button>
+
+                    <Button
+                      className="flex cursor-pointer items-center gap-4 py-1 duration-300 hover:pl-2"
+                      onClick={() => {
+                        setIsProfileActive(false);
+                      }}
+                      isLink
+                      path="/profile/profile-setting"
+                    >
+                      <HiOutlineUser className="text-xl" />
+                      Profile Setting
+                    </Button>
+
+                    <Button
+                      className="flex cursor-pointer items-center gap-4 py-1 duration-300 hover:pl-2"
+                      onClick={() => {
+                        setIsProfileActive(false);
+                      }}
+                      isLink
+                      path="/profile/account-setting/username"
+                    >
+                      <HiOutlineCog6Tooth className="text-xl" />
+                      Account Setting
+                    </Button>
+
                     <Button
                       className="flex cursor-pointer items-center gap-4 py-1 duration-300 hover:pl-2"
                       onClick={() => {
